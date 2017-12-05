@@ -13,7 +13,7 @@ public class Character {
 		else
 			return true; // meaning alive
 	}
-	
+	hello hello 
 	
 	// getters
 	public int getDefense() {
