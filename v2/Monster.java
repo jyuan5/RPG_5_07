@@ -7,5 +7,8 @@ public class Monster extends Character {
 		defense = 20;
 		attackRate = 1;
 	}
+	public String toString () {
+            return "" + health + " " + strength + " " + defense + " " + attackRate;
+    }
 	
 }
