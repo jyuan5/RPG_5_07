@@ -12,6 +12,10 @@ public class Protagonist extends Character { //Not Tested
         attackRate = initattack = 0.4;
     }
     
+    public String toString () {
+        return name + " " + health + " " + strength + " " + defense + " " + attackRate;
+    }
+    
     public String getName(){ return name; }
     
     public int special = 5;
