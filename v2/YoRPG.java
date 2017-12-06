@@ -82,13 +82,11 @@ public class YoRPG
                 catch ( IOException e ) { }
         if (c == 1)
             pat = new Warrior( name );
-        if (c == 2)
+        else if (c == 2)
             pat = new Tank( name );
-        if (c == 3)
+        else if (c == 3)
             pat = new Assassin( name );
-        else
-            pat = new Protagonist( name );
-
+        
     }//end newGame()
 
 
