@@ -6,4 +6,8 @@ public class Cyclops extends Monster {
 	defense = 20;
 	attackRate = 0.8;
     }
+	
+    public String toString() {
+	    return "Dragon" + super.toString();
+    }
 }
