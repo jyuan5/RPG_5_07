@@ -4,7 +4,7 @@ public class Warrior extends Protagonist {
       health = 200;
       strength = 100;
       defense = initdefense = 40;
-      attack = initattack = 0.4;
+      attackRate = initattack = 0.4;
     }
     
     public String toString() {
