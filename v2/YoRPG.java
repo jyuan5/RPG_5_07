@@ -71,19 +71,20 @@ public class YoRPG
         try {
             name = in.readLine();
         } catch ( IOException e ) { }
-
+        
+        int char;
         //instantiate the player's character
         try {
                     System.out.println( "\nChoose your Fighter!" );
                     System.out.println( "\t1: Warrior\n\t2: Tank\n\t3: Assassin" );
-                    i = Integer.parseInt( in.readLine() );
+                    char = Integer.parseInt( in.readLine() );
                 }
                 catch ( IOException e ) { }
-        if (i == 1)
+        if (char == 1)
             pat = new Warrior( name );
-        if (i == 2)
+        if (char == 2)
             pat = new Tank( name );
-        if (i == 3)
+        if (char == 3)
             pat = new Assassin( name );
         else
             pat = new Protagonist( name );
