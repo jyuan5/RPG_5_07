@@ -5,11 +5,11 @@ public class Protagonist extends Character { //Not Tested
     public double initattack;
 
     public Protagonist (String input) {
-    name = input;
-    health = 125;
-    strength = 100;
-    defense = initdefense = 40;
-    attackRate = initattack = 0.4;
+        name = input;
+        health = 125;
+        strength = 100;
+        defense = initdefense = 40;
+        attackRate = initattack = 0.4;
     }
     
     public String getName(){ return name; }
