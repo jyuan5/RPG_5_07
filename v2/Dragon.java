@@ -1,9 +1,9 @@
 public class Dragon extends Monster {
     //constructor
     public Dragon() {
-	health = 150;
-	strength = (int) (Math.random() * 45 + 20);
-	defense = 75;
+	health = 175;
+	strength = (int) (Math.random() * 50 + 25);
+	defense = 30;
 	attackRate = 1;
     }
 }
