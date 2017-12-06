@@ -1,5 +1,5 @@
 public class Protagonist extends Character { //Not Tested
-    oublic String name;
+    public String name;
     
     public int initdefense;
     public double initattack;
