@@ -13,7 +13,7 @@ public class Protagonist extends Character { //Not Tested
     }
     
     public String toString () {
-        return name + " " + health + " " + strength + " " + defense + " " + attackRate;
+        return name + "\n health: " + health + "\n strength: " + strength + " \n defense: " + defense + " \n attackRate: " + attackRate;
     }
     
     public String getName(){ return name; }
