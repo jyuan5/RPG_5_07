@@ -6,4 +6,7 @@ public class Dragon extends Monster {
 	defense = 30;
 	attackRate = 1;
     }
+    public String toString() {
+	    return "Dragon" + super.toString();
+    }
 }
