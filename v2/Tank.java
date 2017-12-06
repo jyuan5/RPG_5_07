@@ -4,7 +4,7 @@ public class Tank extends Protagonist {
       health = 125;
       strength = 100;
       defense = initdefense = 80;
-      attack = initattack = 0.4;
+      attackRate = initattack = 0.4;
     }
     
     public String toString() {
