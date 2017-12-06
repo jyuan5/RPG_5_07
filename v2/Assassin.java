@@ -8,6 +8,6 @@ public class Assassin extends Protagonist {
     }
     
     public toString() {
-        super.toString()
+        return "Assassin " + super.toString();
     }
 }

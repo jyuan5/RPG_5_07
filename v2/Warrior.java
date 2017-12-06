@@ -6,4 +6,8 @@ public class Warrior extends Protagonist {
       defense = initdefense = 40;
       attack = initattack = 0.4;
     }
+    
+    public toString() {
+        return "Warrior " + super.toString();
+    }
 }

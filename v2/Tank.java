@@ -6,4 +6,8 @@ public class Tank extends Protagonist {
       defense = initdefense = 80;
       attack = initattack = 0.4;
     }
+    
+    public toString() {
+        return "Tank " + super.toString();
+    }
 }
