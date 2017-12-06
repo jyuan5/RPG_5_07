@@ -72,7 +72,7 @@ public class YoRPG
             name = in.readLine();
         } catch ( IOException e ) { }
         
-        int c;
+        int c = 1;
         //instantiate the player's character
         try {
                     System.out.println( "\nChoose your Fighter!" );
