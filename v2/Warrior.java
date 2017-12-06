@@ -7,7 +7,7 @@ public class Warrior extends Protagonist {
       attack = initattack = 0.4;
     }
     
-    public toString() {
+    public String toString() {
         return "Warrior " + super.toString();
     }
 }
