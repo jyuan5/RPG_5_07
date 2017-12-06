@@ -4,6 +4,6 @@ public class Assassin extends Protagonist {
     health = 125;
     strength = 100;
     defense = initdefense = 40;
-    attack = initattack = 0.8;
+    attackRate = initattack = 0.8;
     }
 }
