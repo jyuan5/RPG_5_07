@@ -6,4 +6,8 @@ public class Assassin extends Protagonist {
         defense = initdefense = 40;
         attackRate = initattack = 0.8;
     }
+    
+    public toString() {
+        super.toString()
+    }
 }
