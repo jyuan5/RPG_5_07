@@ -8,6 +8,6 @@ public class Cyclops extends Monster {
     }
 	
     public String toString() {
-	    return "Cyclops" + super.toString();
+	    return "Cyclops " + super.toString();
     }
 }
