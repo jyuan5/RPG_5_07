@@ -6,4 +6,7 @@ public class Goblin extends Monster {
 	defense = 20;
 	attackRate = 1;
     }
+    public String toString() {
+	    return "Goblin" + super.toString();
+    }
 }
