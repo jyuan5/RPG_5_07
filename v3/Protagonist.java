@@ -1,4 +1,4 @@
-public abstract class Protagonist extends Character { //Not Tested
+public abstract class Protagonist extends Character { 
     public String name;
     
     public int initdefense;
@@ -12,7 +12,7 @@ public abstract class Protagonist extends Character { //Not Tested
         attackRate = initattack = 0.4;
     }*/
     
-    public String toString ();
+    public abstract String toString ();
     
     public String getName(){ return name; }
     
@@ -29,3 +29,9 @@ public abstract class Protagonist extends Character { //Not Tested
 }
 
 //.\Protagonist.java:1: error: Protagonist is not abstract and does not override abstract method toString() in Protagonist
+
+// Tested with instantiation:
+// TesterClass.java:3: error: Protagonist is abstract; cannot be instantiated
+
+// If we attempt to compile a subclass without a toString():
+// Warrior.java:1: error: Warrior is not abstract and does not override abstract method toString() in Protagonist
