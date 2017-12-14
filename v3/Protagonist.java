@@ -1,4 +1,4 @@
-public class Protagonist extends Character { //Not Tested
+public abstract class Protagonist extends Character { //Not Tested
     public String name;
     
     public int initdefense;
@@ -29,3 +29,5 @@ public class Protagonist extends Character { //Not Tested
         attackRate = initattack;
     }
 }
+
+//.\Protagonist.java:1: error: Protagonist is not abstract and does not override abstract method toString() in Protagonist
