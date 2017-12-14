@@ -12,9 +12,7 @@ public abstract class Protagonist extends Character { //Not Tested
         attackRate = initattack = 0.4;
     }*/
     
-    public String toString () {
-        return name + "\n health: " + health + "\n strength: " + strength + " \n defense: " + defense + " \n attackRate: " + attackRate;
-    }
+    public String toString ();
     
     public String getName(){ return name; }
     
